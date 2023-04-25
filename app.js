@@ -48,3 +48,15 @@ function getRandomSymbol(){
   
 // Example of the getRandomSymbol function
 console.log(getRandomSymbol()); // Random symbol from the "symbols" string
+
+
+// Selecting the DOM Elements
+const resultEl = document.querySelector(`#result`);
+const clipboardEl = document.querySelector(`#clipboard`);
+const lowercaseEl = document.querySelector(`#lowercase`);
+const uppercaseEl = document.querySelector(`#uppercase`);
+const numbersEl = document.querySelector(`#numbers`);
+const symbolsEl = document.querySelector(`#symbols`);
+const lengthEl = document.querySelector(`#length`);
+const generateEl = document.querySelector(`#generate`);
+
